@@ -41,7 +41,7 @@ namespace GenerateShellCode
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine("Произошла ошибка: " + ex.Message);
+                    Console.WriteLine("Error: " + ex.Message);
                 }
 
             }
